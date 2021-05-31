@@ -2,25 +2,25 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'MATRiX | Developer', // e.g: 'Name | Developer'
+  lang: 'mm', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'MATRiX',
   subtitle: '',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile2.jpg',
+  paragraphOne: 'From Myanmar',
+  paragraphTwo: 'Html/Css/PHP/Node.js',
+  paragraphThree: '"React/Wordpress/Flutter/Git"',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,29 +29,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Ecommerce React-App',
+    info: 'React အသုံးပြုထားသော website ဖြစ်သည့်အတွက် မည်သည့် Devices ပေါ်တွင်မဆို responsiable ဖြစ်သည်။',
+    info2: 'Backend Product Data & Payment များအား Commerce JS အားအသုံးပြုထားသောကြောင့် Stripe Acc လိုအပ်ပီး Products များအား လွယ်ကူစွာထည့်သွင်းနိုင်သည်။',
+    url: 'https://matrixmm.ml',
+    repo: 'https://matrixmm.ml', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project1.png',
+    title: 'Flutter App With Wordpress Api',
+    info: 'Flutter အသုံးပြု၍ ရေးထားသော Mobile Application ဖြစ်ပီး Wordpress အားချိတ်ဆက်ထားသည်။',
+    info2: 'Wordpress အား အသုံးပြု၍ Posts သတင်းများ အလွယ်တကူတင်နိုင်သည်။',
+    url: 'https://matrixmmstore.000webhostapp.com',
+    repo: 'https://www.mediafire.com/file/r8maz7j6tdhpaeq/zawgyinews.apk/file', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2.jpg',
+    title: 'Wordpress Customize',
+    info: 'Wordpress Websites Page & Admin Panel များအား စိတ်တိုင်းကျ ပြုပြင်နိုင်သည်။',
+    info2: 'PHP အသုံးပြု၍ ပြုပြင်သောကြောင့် WP CMS များ ဝယ်၍အသုံးပြုရန်မလိုအပ်ပေ။',
+    url: 'https://matrixmmstore.000webhostapp.com',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -68,7 +68,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/thetnaing078106',
     },
     {
       id: nanoid(),
@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/thetnaing078',
     },
   ],
 };
