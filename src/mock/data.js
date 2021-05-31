@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'From Myanmar',
   paragraphTwo: 'Html/Css/PHP/Node.js',
   paragraphThree: '"React/Wordpress/Flutter/Git"',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://cvmkr.com/MpVKN?pdf=1', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
