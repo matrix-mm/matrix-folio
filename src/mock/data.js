@@ -72,13 +72,13 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/MATRiX-106084520849458',
     },
     {
       id: nanoid(),
-      name: 'linkedin',
-      url: '',
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCcuASKYq51zylGAP9M2MhbQ',
     },
     {
       id: nanoid(),
